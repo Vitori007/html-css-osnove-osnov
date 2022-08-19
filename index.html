@@ -35,17 +35,69 @@
         ≤td≥треш≤/td≥</br>
      ≤/tr≥</br>
 ≤/table≥</p>
-<p>≤table style="background-color:lighblue;"≥...≤/table≥— фон всієї таблиці світло-блакитний. Аналогічно можна застосовувати для рядка або комірки.: </p>
-<table style="background-color:lighblue">
+<p>≤table style="background-color:(lighblue-этот цвет программа не знает и не окрашивает поэтому, вместо него здесь) #f7d5c3);"≥...≤/table≥— фон всієї таблиці світло-блакитний. Аналогічно можна застосовувати для рядка або комірки.: </p>
+<table>
     <tr>
-        <td>(нет, для строки </td>
-        <td>не применяеться,</td>
-        <td>еще попробуй понять </td>
-        <td>понять логику </td>
-        <td>применения кода)</td>
-    </tr>
-    <tr>
-        <td>Теперь не показывает одну строку таблицы, вот которая раньше была</td>
+        <td style="background-color:#f7d5c3">(нет, для строки не работает border, еще попробуй понять логику применения кода)</td>
     </tr>
 </table>
+    <p>≤tr style="color:green;"≥...≤/tr≥ — колір тексту в рядку зеленого кольору. Аналогічно можна застосувати для комірки.</p>
+<table>
+    <tr style="color:green;">
+     <td>... да да</td>
+    </tr>
+</table>
+    <p>≤td≥≤img src="https://ulibky.ru/wp-content/uploads/2020/01/Grustnye_kartinki_so_smyslom_o_zhizni_1_31200257.jpg" width="30px" height="30px"/≥≤/td> — вставка картинки із заданими розмірами в комірку таблиці.</p>
+<table>
+    <tr>
+    <td style="color:#aaaaaa">Так легко находить картинки, прям отзывается в серце</td>
+    <td><img src="https://ulibky.ru/wp-content/uploads/2020/01/Grustnye_kartinki_so_smyslom_o_zhizni_1_31200257.jpg" width="200px" height="200px"/></td>
+    </tr>
+    <tr>
+     <td><td>
+     <td style="color:#aaaaaa">По внутреннему голосу находятся</td>
+    <tr>
+</table>
+    <p> ≤table style="border-collapse:collapse;"≥...≤/table≥ — прибираємо відстань між межею таблиці та межами комірок. - это нужно, потому что, когда задаётся border для таблицы и для ячейки, образуется пространство между ними:
+    <table style="border:green 3px solid">
+        <td style="border:green 3px solid">серый такой типа:#aaaaaa</td>
+        <td>печальненько</td>
+     </table>
+     и при данной команде оно убирается:</p>  
+    <table style="border:green 3px solid; border-collapse:collapse;">
+        <td style="border:green 3px solid">серый такой типа:#aaaaaa</td>
+        <td>печальненько</td>
+</table>
+        <p>text-align — вирівнювання тексту. Будь-який текст вирівняний по лівому краю, але його можна вирівняти:</br> <p style="text-align:center">по центру:</br>
+text-align:center;</p>
+<p style="text-align:right">або по правому краю:</br>
+text-align:right</p>
+<p style="left">Есть ещё text-align:
+left, в нём особо нет логики, наверное поэтому не упоминается</p>
+<p style="font-size:20px"> font-size — висота букв тексту в пікселях: значення 15px – дрібний текст:<span style="font-size:15px">15px</span>, 50px – великий заголовок:<span style="font-size:50px">50px</span>.</p>
+<p>font-family — шрифт: набір літер та символів, написаних у певному стилі. У сучасному веб-дизайні популярні шрифти без засічок: значення стилю sans-serif: <p style="font-family:sans-serif">sans-serif</p>
+<p>background —дозволяє встановити колір тла для сайту. Застосовується до тега ≤main≥, всередину якого міститься весь вміст сайту.Наприклад, поставимо колір фону світло-блакитний і шрифт без засічок:</br>
+    ≤main style="background:lightblue;font-family:sans-serif;"≥</br>
+        ≤h2≥Моя жизнь≤/h2≥</br>
+        ≤p≥Может стать лучше...≤/p≥</br>
+    ≤/main≥<br>
+ </p>
+ <main style="background:lightblue;font-family:sans-serif;">
+        <h2>Моя жизнь</h2>
+        <p>Может стать лучше...</p>
+    </main>
+    <p>На спеціальних сайтах, наприклад<a href="https://w3schoolsua.github.io/colors/colors_picker.html"> тут</a>, є списки зарезервованих слів, які позначають колір на веб-сторінках.</p>
+    <p>≤title≥..≤/title≥ — всередині цього тега пишемо назву сторінки для вікна браузера (не відображається на платформі, але відображається при публікації на GitHub Pages).</br>
+≤body≥</br>
+    ...</br>
+≤/body≥ — між цими тегами міститься весь вміст сайту.</br>
+≤header≥...≤/header≥ — це шапка сайту, тут розміщують інформацію, яку потрібно швидко надати користувачеві: меню, а також, наприклад, логотип.</br>
+≤main≥</br>
+    ...</br>
+≤/main≥ — між цими тегами основна інформація: заголовки, текст, картинки та інші об'єкти.</br>
+≤footer≥...≤/footer≥ — між цими тегами підвал сайту: у ньому контакти, посилання на соціальні мережі, інформація про права на контент і таке інше.</p>
+<p>≤br/≥ — цей тег задає перенесення на новий рядок,</br>
+але не в новий абзац.</p>
+<p><b>≤b≥...≤/b≥ — між цими тегами жирний текст.</b></p>
+<p><i>≤i≥...≤/i≥ — між цими тегами курсивний текст.</i></p>
 </html>
