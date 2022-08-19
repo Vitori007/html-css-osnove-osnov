@@ -100,4 +100,37 @@ left, в нём особо нет логики, наверное поэтому 
 але не в новий абзац.</p>
 <p><b>≤b≥...≤/b≥ — між цими тегами жирний текст.</b></p>
 <p><i>≤i≥...≤/i≥ — між цими тегами курсивний текст.</i></p>
+<p>Код сторінки містить CSS-селектори, тому їх потрібно помістити в окремий файл. Використовуючи тег ≤link≥ можна задати оформлення цієї сторінки стилями цього файлу: </br>
+≤link rel="stylesheet" href="style.css"/≥</br>
+Тег ≤link≥, як і тег ≤title≥, є заголовним, тобто належить до всього сайту, не тільки до контенту, конкретних елементів. Оскільки ми використовуємо вже два заголовні теги, їх варто відокремлювати від контенту ≤body≥, за допомогою спеціального тегу≤head≥:</br>
+≤html≥</br>
+≤head≥</br>
+≤title≥...≤/title≥ (-название сайта)</br>
+≤link rel="stylesheet" href="style.css"/≥</br>
+≤/head≥</br>
+≤body≥</br>
+ ≤heder≥....≤/heder></br>
+ ≤main≥</br>
+ ...</br>
+ ≤/main≥</br>
+ ≤footer≥≤/footer≥</br>
+ ≤/body≥</br>
+ И открывши этот файл, задаются стили таким образом:</br>
+ <img src="https://learn.logikaschool.com/uploads/2021/11/1_0_1636721981.png"height="300"/> 
+ <img src="https://learn.logikaschool.com/uploads/2021/11/%D0%91%D0%B5%D0%B7%20%D1%96%D0%BC%D0%B5%D0%BD%D1%96_0_1636984494.png" height="300"/>
+ <img src="https://learn.logikaschool.com/uploads/2020/12/%D1%81%D0%BB%D0%B0%D0%B9%D0%B42_0_1606841130.png"height="300"/>
+ <img src="https://learn.logikaschool.com/uploads/2020/12/%D1%81%D0%BB%D0%B0%D0%B9%D0%B43_0_1606841130.png" height="300"/>
+ <img src="https://learn.logikaschool.com/uploads/2020/12/%D1%81%D0%BB%D0%B0%D0%B9%D0%B46_0_1606908250.png" height="300"/>
+ <img src="https://learn.logikaschool.com/uploads/2020/12/%D1%81%D0%BA%D1%80%D0%B8%D0%BD2_0_1608905387.png" height="300"</p>
+ <p style="text-decoration:underline #00b5f0">text-decoration — підкреслення тексту;</p>
+    <dev style="border: solid 2px #8bca54; border-radius:10px;"> border-radius — заокруглення меж;</dev>
+    <p><dev style="border: solid 2px #8bca54; border-radius:10px; padding:5px;">padding — внутрішні відступи;</dev></p>
+    <p style="margin:10px"><dev style="border: solid 2px #8bca54; border-radius:10px; padding:5px;">margin — зовнішні відступи.</dev></p>
+    <p>Расстояние отсупа со всех сторон задаётся одним значением: margin(padding):(число)px, а если с одной стороны:
+    <p><img src="https://learn.logikaschool.com/uploads/2020/12/%D1%81%D0%BA%D1%80%D0%B8%D0%BD_1_0_1608914861.png" height="300"/>
+    <img src="https://learn.logikaschool.com/uploads/2021/06/%D1%81%D0%BA%D1%80%D0%B8%D0%BD2_0_1624998527.png" height="300"></p>
+    <p>Похожее есть у border а:
+    <img src="https://learn.logikaschool.com/uploads/2020/12/%D1%81%D0%BA%D1%80%D0%B8%D0%BD6_0_1609080642.png" height="300">
+    Кстати, стили border а:
+    <img src="https://learn.logikaschool.com/uploads/2020/12/%D1%81%D0%BA%D1%80%D0%B8%D0%BD7_0_1609080642.png" height="300"></p>
 </html>
