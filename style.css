@@ -6,6 +6,10 @@ h1{
      text-align:center;
      padding:3px;
      border-bottom: groove 2px  #1affff;
+     width="300px"
+}
+.h11{
+     text-align:left;
 }
 .start{
       display:flex;
