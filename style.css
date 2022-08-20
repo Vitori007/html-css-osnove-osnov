@@ -10,3 +10,9 @@
       display:flex;
       justify-content:flex-end;
 }
+.between{
+      border:solid 3px darkblue;
+      border-radius:10px;
+      display:flex;
+      justify-content: space-between;
+ }
