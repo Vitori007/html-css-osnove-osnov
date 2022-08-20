@@ -1,3 +1,7 @@
+body{
+     background-color:#FF141576;
+     color:white;
+}
 .start{
       display:flex;
       justify-content:flex-start;
@@ -15,7 +19,7 @@
       justify-content: space-between;
  }
 .kont{
-      border:solid 3px darkblue;
+      border:solid 3px #FF0081FF;
       border-radius:10px;
       padding:10px;
 }
