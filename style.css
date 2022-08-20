@@ -11,6 +11,9 @@ h1{
 .h11{
      text-align:left;
 }
+main {
+     margin:40px;
+}
 .start{
       display:flex;
       justify-content:flex-start;
