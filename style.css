@@ -14,7 +14,7 @@
       display:flex;
       justify-content: space-between;
  }
-.between p{
+.kont{
       border:solid 3px darkblue;
       border-radius:10px;
 }
