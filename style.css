@@ -1,5 +1,5 @@
 body{
-     background-color:#FF141576;
+     background-color: #00334d;
      color:white;
 }
 .start{
@@ -19,7 +19,7 @@ body{
       justify-content: space-between;
  }
 .kont{
-      border:solid 3px #FF0081FF;
+      border:solid 3px  #cceeff;
       border-radius:10px;
       padding:10px;
 }
