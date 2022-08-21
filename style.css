@@ -17,6 +17,9 @@ a{
 .kontte{
      font-size:17px;
 }
+.flexraspol{
+     font-size:20px;
+ }
 .start{
       display:flex;
       justify-content:flex-start;
