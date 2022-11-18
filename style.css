@@ -56,3 +56,6 @@ a{
 .fokus:focus{
         color:#DCDCDC;
 }
+.visited:visited{
+        color:#DCDCDC;
+}
